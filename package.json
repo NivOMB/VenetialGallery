@@ -1,0 +1,25 @@
+{
+  "name": "vg",
+  "version": "1.0.0",
+  "description": "gallery",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NivOMB/VenetialGallery.git"
+  },
+  "author": "Niv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NivOMB/VenetialGallery/issues"
+  },
+  "homepage": "https://github.com/NivOMB/VenetialGallery#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-photo-gallery": "^1.0.7",
+    "mongoose": "^4.8.1"
+  }
+}
